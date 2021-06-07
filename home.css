@@ -1,0 +1,468 @@
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  width: 0%;
+  height: 4px;
+  background: #238aff;
+  z-index: 10000;
+}
+#iwill{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: #f3f3f3;
+}
+#iwill span::after{
+    content: '';
+    animation: animate infinite 16s;
+}
+@keyframes animate{
+    0%   {color:rgb(241, 237, 237);content: 'Donate';}
+    25%   {color:rgb(246, 245, 248);content: 'Be a part of Change';}
+    40%   {color:rgb(250, 246, 250);content: 'help others';}
+    80%   {color:rgb(253, 249, 249);content: 'Be kindful to others';}
+    100%   {color:rgb(252, 247, 247);content: 'help needy';}
+}
+section{
+    text-align: center ;
+    border: 5px outset rgb(8, 8, 8);
+    padding: 40px 100px;
+    font-family: "Roboto", sans-serif;
+    margin: 12px 100px 100px 100px;
+    color: rgba(0, 0, 0, 0.637);
+    background:rgba(255,255,255,0.72);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section p{
+    font-size: 30px;
+}
+section:hover{
+    background:rgba(255,255,255,0.79);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.88);
+    color: #1a1a1a;
+}
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+}
+
+.wrapper{
+  background: url(pic2.jfif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.topnav {
+    background:rgba(255,255,255,0.9);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #1d1414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #26e6ff;
+    color: white;
+  }
+  #btn{
+      background-color: aqua;
+      border: 2px solid black;
+      font-size: 25px;
+      animation-name: btn;
+      animation-duration: 9s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes btn {
+    0%   {background-color:rgb(250, 164, 164);}
+    25%  {background-color:yellow; }
+    50%  {background-color:rgb(120, 120, 247); }
+    75%  {background-color:rgb(164, 245, 164); }
+    100% {background-color:rgb(162, 247, 205);}
+  }
+  .flex-container {
+    display: flex;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 100px 100px;
+    background-color: #ffffff;
+  }
+.flex-child {
+    flex: 1;
+    border: 2px solid  #76a0a6;
+    text-align: center;
+    background-color:  #1c6b79 ;
+    color: white;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+    background-color: #d3d3d3;
+    
+    padding-right: -100px;
+    background: url(volunteer.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.flex-child:last-child{
+    padding: 50px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-child:last-child:hover{
+  background-color: white;
+  color:#1c6b79;
+}
+.btninfo {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #1f4d74;
+  color: rgb(0, 43, 87);
+  border-radius: 10px;
+}
+.btninfo:hover{
+  background: #1c6b79;
+  color: white;
+  
+}
+.flex-container2 {
+  display: flex;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 10px;
+  padding: 100px 100px;
+  background-color: #ffefec;
+  
+}
+.flex2-child {
+  flex: 1;
+  border: 2px solid  #E24D28;
+  text-align: center;
+  background-color:  #E76F51 ;
+  color: white;
+}  
+
+.flex2-child:first-child {
+  margin-right: 20px;
+  background-color: #d3d3d3;
+  border: 2px solid  #dfa395;
+  padding-right: -100px;
+  background: url(logo.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.flex2-child:last-child{
+  padding: 50px 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex2-child:last-child:hover{
+  background-color: white;
+  color:#E76F51;
+}
+.btninfo2 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #ce2900;
+  color: rgb(0, 43, 87);
+  border-radius: 10px;
+}
+.btninfo2:hover{
+  background: #E76F51;
+  color: white;
+  
+}
+.outerflex3{
+  padding: 100px 100px;
+  
+}
+.outerflex3>p{
+  font-size: large;
+}
+.flexcontainer3 {
+  display: flex;
+  justify-content:center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex3child {
+  flex: 1;
+  border: 1px solid;
+  color: white;
+  margin: 10px 10px;
+  padding: 30px 30px;
+  text-align: center;
+  border: #1f4d74 2px solid;
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #28b2ca, #e655d9);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+  .footer {
+    background: #303036;
+    color: #d3d3d3;
+    height: 400px;
+    position: relative;
+  }
+  
+  .footer .footer-content {
+    height: 350px;
+    display: flex;
+  }
+  
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+  }
+  
+  .footer .footer-content h1,
+  .footer .footer-content h2 {
+    color: white;
+  }
+  
+  .footer .footer-content .about h1 span {
+    color: #05f7ff;
+  }
+  
+  .footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  
+  .footer .footer-content .about .socials a {
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+  }
+  
+  .footer .footer-content .about .socials a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+  }
+  
+  .footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+  }
+  
+  .footer .footer-content .links ul a:hover {
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+  }
+  
+  .footer .footer-content .contact-form .contact-input {
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: none;
+  }
+  
+  .footer .footer-content .contact-form .contact-input:focus {
+    background: #1a1a1a;
+  }
+  
+  .footer .footer-content .contact-form{
+    float: right;
+    font-size: 1.1em;
+    font-family: 'Lora', serif;
+  }
+  
+  .footer .footer-bottom {
+    background: #343a40;
+    color: #e4d9d9;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+  }
+  a{
+      color: inherit;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media only screen and (max-width: 934px) {
+    
+  
+    .footer {
+      height: auto;
+    }
+  
+    .footer .footer-content {
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .footer .footer-content .contact-form {
+      padding-bottom: 90px;
+    }
+  
+    .footer .footer-content .contact-form .contact-btn {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px){
+  section{
+    margin: 10px 25px;
+    font-size: small;
+    padding:20px 20px;
+    padding-bottom: 50px;
+    }
+    .para{
+      font-size:large;
+    }
+    .wrapper{
+      background: url(pic2.jfif) no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding-bottom: 50px;
+    }
+    
+    .flex-container{
+      margin-top: 20px;
+      padding: 50px 30px;
+      flex-direction: column;
+      display: list-item;
+    }
+    .flex-child:first-child{
+      width:auto;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height:200px;
+  
+    }
+    .flex-child:last-child{
+      display: list-item;
+      padding: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-bottom: 25px;
+    }
+    
+    .flex-container2{
+      margin-top: 20px;
+      padding: 50px 30px;
+      flex-direction: column;
+      display: list-item;
+    }
+    .flex2-child:first-child{
+      width:auto;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height:200px;
+    }
+    .flex2-child:last-child{
+      display: list-item;
+      padding: 10px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-bottom: 25px;
+    }
+    .outerflex3{
+      margin-top: 20px;
+      padding: 50px 30px;
+      flex-direction: column;
+      display: list-item;
+    }
+    .flexcontainer3{
+      display: block;
+    }
+    .topnav{
+        margin: auto;
+    }
+    #iwill{
+      color: #1a1a1a;
+      font-size: small;
+    }
+    #iwill span::after{
+      content: '';
+      animation: animate infinite 16s;
+  }
+  @keyframes animate{
+      0%   {color:rgb(31, 24, 24);content: 'Donate Money';}
+      25%   {color:rgb(32, 26, 26);content: 'Be a part of Change';}
+      40%   {color:rgb(26, 19, 19);content: 'help others';}
+      80%   {color:rgb(10, 7, 7);content: 'Be kindful';}
+      100%   {color:rgb(12, 10, 10);content: 'help needy';}
+  }
+    #logo{
+        margin: auto;
+    }
+  }
+  @media only screen and (max-width: 369px){
+    .topnav a{
+      font-size: 13px;
+    }
+  }
